@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>code_sanity</category>
         <description>Flow Designer Flows and Subflows are designed to allow low-code/no-code citizen developers to assemble low complexity, ad-hoc logic for their apps.&#13;
 Flow Designer is NOT suitable to built high-complex applications.&#13;
@@ -38,15 +39,16 @@ Expose features using Flows and Subflows to low-code/no-code developers where ne
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-15 15:49:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ed3393c6dbd951109232dad1f39619cf</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>CodeSanity - Do not run Flows from scripts</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_linter_check_ed3393c6dbd951109232dad1f39619cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-03 10:14:45</sys_updated_on>
     </scan_linter_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=ed3393c6dbd951109232dad1f39619cf"/>
 </record_update>

@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>In a table scan script the engine object does not contain the current object. Instead, the current object is just made available as a global variable.</description>
@@ -30,11 +31,13 @@
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 13:21:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c76137d147a61d10a4b0d4fe536d43d5</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>CodeSanity - Avoid engine.current</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_c76137d147a61d10a4b0d4fe536d43d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -42,5 +45,4 @@
         <table>scan_table_check</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=c76137d147a61d10a4b0d4fe536d43d5"/>
 </record_update>

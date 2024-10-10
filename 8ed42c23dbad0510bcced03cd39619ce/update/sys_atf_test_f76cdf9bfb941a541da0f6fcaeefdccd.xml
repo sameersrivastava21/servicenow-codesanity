@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CodeSanity - GetAppIdentifier">e18370181bef51105b76777d8b4bcb51</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>CodeSanity - GetAppIdentifier copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f76cdf9bfb941a541da0f6fcaeefdccd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CodeSanity - GetAppIdentifier copy</sys_name>
+        <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
+        <sys_update_name>sys_atf_test_f76cdf9bfb941a541da0f6fcaeefdccd</sys_update_name>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:52</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=f76cdf9bfb941a541da0f6fcaeefdccd"/>
+</record_update>

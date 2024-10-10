@@ -2,11 +2,12 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions table="sys_metadata">sys_class_name=sys_atf_test^ORsys_class_name=sys_atf_test_suite^ORsys_class_name=sc_cat_item^ORsys_class_name=sys_declarative_action_definition^ORsys_class_name=sys_hub_flow^ORsys_class_name=sp_widget^ORsys_class_name=pa_dashboards^ORsys_class_name=sys_hub_action_type_definition^ORsys_class_name=sys_data_source^ORsys_class_name=wf_workflow^ORsys_class_name=item_option_new^EQ<item display_value="Test" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sys_atf_test"/>
             <item display_value="Test Suite" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sys_atf_test_suite"/>
             <item display_value="Catalog Item" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sc_cat_item"/>
-            <item display_value="Action Definition" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sys_declarative_action_definition"/>
+            <item display_value="Declarative Action Definition" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sys_declarative_action_definition"/>
             <item display_value="Flow" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sys_hub_flow"/>
             <item display_value="Widget" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="sp_widget"/>
             <item display_value="Dashboard" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="pa_dashboards"/>
@@ -42,11 +43,13 @@
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-06 10:30:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e45f271cdbd4e5906a03dad1f3961974</sys_id>
         <sys_mod_count>20</sys_mod_count>
         <sys_name>CodeSanity - Avoid "Copy of"</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_e45f271cdbd4e5906a03dad1f3961974</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -54,5 +57,4 @@
         <table>sys_metadata</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=e45f271cdbd4e5906a03dad1f3961974"/>
 </record_update>

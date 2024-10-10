@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>Checks are code and any code should be tested. ATF tests should cover all checks that are defined in an application.</description>
@@ -33,11 +34,13 @@
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-02 08:38:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>53d43af1db8599109232dad1f396192c</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>CodeSanity - ATF tests for checks</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_53d43af1db8599109232dad1f396192c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -45,5 +48,4 @@
         <table>scan_check</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=53d43af1db8599109232dad1f396192c"/>
 </record_update>

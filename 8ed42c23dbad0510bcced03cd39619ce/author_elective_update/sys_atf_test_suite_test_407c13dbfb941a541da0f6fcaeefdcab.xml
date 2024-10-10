@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>50</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>407c13dbfb941a541da0f6fcaeefdcab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>407c13dbfb941a541da0f6fcaeefdca4</sys_name>
+        <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_407c13dbfb941a541da0f6fcaeefdcab</sys_update_name>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:54</sys_updated_on>
+        <test display_value="CodeSanity - IsCheckInCodeSanitySuite copy">407c13dbfb941a541da0f6fcaeefdca4</test>
+        <test_suite display_value="CodeSanity copy">636c9f9bfb941a541da0f6fcaeefdcbf</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</application>
+        <file_path/>
+        <instance_id>71fd37f9db02cf04563b7236bf9619fd</instance_id>
+        <instance_name>maerskbackup</instance_name>
+        <name>sys_atf_test_suite_test_407c13dbfb941a541da0f6fcaeefdcab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order>50</order><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>ASU306</sys_created_by><sys_created_on>2024-09-03 05:17:54</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>407c13dbfb941a541da0f6fcaeefdcab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>407c13dbfb941a541da0f6fcaeefdca4</sys_name><sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope><sys_update_name>sys_atf_test_suite_test_407c13dbfb941a541da0f6fcaeefdcab</sys_update_name><sys_updated_by>ASU306</sys_updated_by><sys_updated_on>2024-09-03 05:17:54</sys_updated_on><test display_value="CodeSanity - IsCheckInCodeSanitySuite copy">407c13dbfb941a541da0f6fcaeefdca4</test><test_suite display_value="CodeSanity copy">636c9f9bfb941a541da0f6fcaeefdcbf</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-2143558371</payload_hash>
+        <record_name>407c13dbfb941a541da0f6fcaeefdca4</record_name>
+        <reverted_from/>
+        <source>2b5057d7fb901a541da0f6fcaeefdc34</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:54</sys_created_on>
+        <sys_id>007c13dbfb941a541da0f6fcaeefdcad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b65169590000001</sys_recorded_at>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:54</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>c07c13db08941a54ebf09d269a95b7ac</update_guid>
+        <update_guid_history>c07c13db08941a54ebf09d269a95b7ac:-2143558371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:18:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>9bf5f53f671d40688a822f907a000a40</sys_id>
+        <sys_metadata>407c13dbfb941a541da0f6fcaeefdcab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>407c13dbfb941a541da0f6fcaeefdca4</sys_name>
+        <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
+        <sys_scope_delete display_value="">8c01c38fa81d4fae9bac60e1bb586744</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_407c13dbfb941a541da0f6fcaeefdcab</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_407c13dbfb941a541da0f6fcaeefdcab">007c13dbfb941a541da0f6fcaeefdcad</sys_update_version>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:18:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

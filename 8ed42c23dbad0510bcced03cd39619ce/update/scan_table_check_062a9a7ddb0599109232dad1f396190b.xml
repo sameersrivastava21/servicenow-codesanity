@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>Table scan checks which are part of the CodeSanity suite must check if a given record should actually be checked by the check.</description>
@@ -41,11 +42,13 @@
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-02 06:43:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>062a9a7ddb0599109232dad1f396190b</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_name>CodeSanity - CodeSanity table checks apply rules</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_062a9a7ddb0599109232dad1f396190b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -53,5 +56,4 @@
         <table>scan_table_check</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=062a9a7ddb0599109232dad1f396190b"/>
 </record_update>

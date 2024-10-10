@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">21f3bf90db18e5906a03dad1f3961959</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c57cd3dbfb941a541da0f6fcaeefdcdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
+        <sys_update_name>sys_atf_step_c57cd3dbfb941a541da0f6fcaeefdcdb</sys_update_name>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:58</sys_updated_on>
+        <table/>
+        <test display_value="CodeSanity - Deprecated logging copy">cd7cd3dbfb941a541da0f6fcaeefdcd7</test>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c57cd3dbfb941a541da0f6fcaeefdcdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c57cd3dbfb941a541da0f6fcaeefdcdb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:58</sys_created_on>
+        <sys_id>017cd3dbfb941a541da0f6fcaeefdcdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:58</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c57cd3dbfb941a541da0f6fcaeefdcdb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:58</sys_created_on>
+        <sys_id>c17cd3dbfb941a541da0f6fcaeefdcdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:58</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+    var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
+&#13;
+    test.SetResult(true);&#13;
+&#13;
+    var strCheck = '3ac2ff10db18e5906a03dad1f3961926';&#13;
+&#13;
+    var grApp = x_snc_devtools.GetAppRecord('x_dtbsg_codesanity');&#13;
+&#13;
+    var grSI = new GlideRecord('sys_ui_script');&#13;
+    grSI.initialize();&#13;
+    grSI.sys_scope = grApp.sys_id;&#13;
+    grSI.name = 'Test1';&#13;
+    grSI.script = 'function Test1(strText) {  }';&#13;
+    var strRecordSysId = x_snc_devtools.GlideRecordInsert(grSI);&#13;
+    test.TestCase_InstanceScanCheck(strCheck, 'sys_ui_script', strRecordSysId, false);&#13;
+&#13;
+    var grSI = new GlideRecord('sys_ui_script');&#13;
+    grSI.initialize();&#13;
+    grSI.sys_scope = grApp.sys_id;&#13;
+    grSI.name = 'Test2';&#13;
+    grSI.script = 'function Test1(strText) { console.log(strText); }';&#13;
+    var strRecordSysId = x_snc_devtools.GlideRecordInsert(grSI);&#13;
+    test.TestCase_InstanceScanCheck(strCheck, 'sys_ui_script', strRecordSysId, false);&#13;
+&#13;
+    var grSI = new GlideRecord('sys_ui_script');&#13;
+    grSI.initialize();&#13;
+    grSI.sys_scope = grApp.sys_id;&#13;
+    grSI.name = 'Test3';&#13;
+    grSI.script = 'function Test3(strText) { jslog(strText); }';&#13;
+    var strRecordSysId = x_snc_devtools.GlideRecordInsert(grSI);&#13;
+    test.TestCase_InstanceScanCheck(strCheck, 'sys_ui_script', strRecordSysId, false);&#13;
+&#13;
+    var grSI = new GlideRecord('sys_ui_script');&#13;
+    grSI.initialize();&#13;
+    grSI.sys_scope = grApp.sys_id;&#13;
+    grSI.name = 'Test4';&#13;
+    grSI.script = 'function Test4(strText) { gs.log(strText); }';&#13;
+    var strRecordSysId = x_snc_devtools.GlideRecordInsert(grSI);&#13;
+    test.TestCase_InstanceScanCheck(strCheck, 'sys_ui_script', strRecordSysId, true);&#13;
+&#13;
+    var grSI = new GlideRecord('sys_ui_script');&#13;
+    grSI.initialize();&#13;
+    grSI.sys_scope = grApp.sys_id;&#13;
+    grSI.name = 'Test5';&#13;
+    grSI.script = 'function Test5(strText) { gs.print(strText); }';&#13;
+    var strRecordSysId = x_snc_devtools.GlideRecordInsert(grSI);&#13;
+    test.TestCase_InstanceScanCheck(strCheck, 'sys_ui_script', strRecordSysId, true);&#13;
+&#13;
+    return test.GetResult();&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+</record_update>

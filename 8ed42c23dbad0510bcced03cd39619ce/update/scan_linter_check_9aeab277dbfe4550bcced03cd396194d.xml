@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>code_sanity</category>
         <description>A closing bracket followed by a dot indicates that the result from a function is assumed to be an object that contains a specific member. That however may lead to errors if the result is not an object or if a returned object does not contain the specified member or member function.&#13;
 At the same time this check sanctions the questionable use of the method chaining pattern - which usually does not add any value and makes code more difficult to read.&#13;
@@ -57,15 +58,16 @@ A finding may also indicate the use of the toString() method which may just be u
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-18 17:50:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9aeab277dbfe4550bcced03cd396194d</sys_id>
         <sys_mod_count>38</sys_mod_count>
         <sys_name>CodeSanity - Bracket-dot anti-pattern</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_linter_check_9aeab277dbfe4550bcced03cd396194d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-08 08:32:54</sys_updated_on>
     </scan_linter_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=9aeab277dbfe4550bcced03cd396194d"/>
 </record_update>

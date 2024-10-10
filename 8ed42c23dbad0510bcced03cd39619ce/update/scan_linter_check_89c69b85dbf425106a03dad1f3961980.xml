@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
+        <attributes/>
         <category>code_sanity</category>
         <description>Any use of "jslog()" or "console.log()" (or any other console-based logging methods) lead to output on the console of the user's browser. Such output never makes it into a server log where administrators or developers can review it. Such output should be considered as debug output which should be avoided in production.  </description>
         <documentation_url/>
@@ -105,15 +106,16 @@
         <sys_class_name>scan_linter_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-02 13:09:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>89c69b85dbf425106a03dad1f3961980</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>CodeSanity - Client-side logging</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_linter_check_89c69b85dbf425106a03dad1f3961980</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-22 16:25:32</sys_updated_on>
     </scan_linter_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=89c69b85dbf425106a03dad1f3961980"/>
 </record_update>

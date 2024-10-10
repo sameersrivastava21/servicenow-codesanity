@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="DevTools - Check app dependencies">2f11082a1b3f5d105b76777d8b4bcb68</copied_from>
+        <description>Checks if all documented dependencies of the application are installed in a compatible version
+</description>
+        <display_name>DevTools - Check app dependencies</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="DevTools - Check app dependencies">e4b8e71e1bbb5d105b76777d8b4bcb35</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>ASU306</sys_created_by>
+        <sys_created_on>2024-09-03 05:17:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc7c93dbfb941a541da0f6fcaeefdcbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevTools - Check app dependencies</sys_name>
+        <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
+        <sys_update_name>sys_atf_step_bc7c93dbfb941a541da0f6fcaeefdcbc</sys_update_name>
+        <sys_updated_by>ASU306</sys_updated_by>
+        <sys_updated_on>2024-09-03 05:17:57</sys_updated_on>
+        <table/>
+        <test display_value="CodeSanity - Installation copy">b47c93dbfb941a541da0f6fcaeefdcb9</test>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bc7c93dbfb941a541da0f6fcaeefdcbc"/>
+</record_update>

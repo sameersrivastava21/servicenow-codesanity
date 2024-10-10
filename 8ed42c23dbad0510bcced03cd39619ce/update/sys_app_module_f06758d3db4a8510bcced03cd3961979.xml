@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="CodeSanity">b86758d3db4a8510bcced03cd396195c</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter table="syslog_app_scope">sys_created_onONLast 30 minutes@javascript:gs.beginningOfLast30Minutes()@javascript:gs.endOfLast30Minutes()^sys_scope=8ed42c23dbad0510bcced03cd39619ce^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 minutes@javascript:gs.beginningOfLast30Minutes()@javascript:gs.endOfLast30Minutes()"/>
             <item display_table="sys_scope" display_value="CodeSanity" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="8ed42c23dbad0510bcced03cd39619ce"/>
@@ -20,10 +21,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query>&amp;sysparm_view_forced=true&amp;sysparm_order=sequence&amp;sysparm_order_direction=desc</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_snc_codesanity.admin</roles>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-10 09:51:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f06758d3db4a8510bcced03cd3961979</sys_id>
@@ -32,12 +37,14 @@
         <sys_overrides/>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>sys_app_module_f06758d3db4a8510bcced03cd3961979</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-11-14 12:17:36</sys_updated_on>
         <timeline_page/>
         <title>Log</title>
+        <u_group_access/>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

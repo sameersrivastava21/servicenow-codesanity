@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>Each Role must have a description. The description ideally contains a reference to a defined persona and specify the resources and features this role provides access to. </description>
@@ -29,11 +30,13 @@
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-07 15:38:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9a65b57f1b15e1105b76777d8b4bcbcd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CodeSanity - Role description</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_9a65b57f1b15e1105b76777d8b4bcbcd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -41,5 +44,4 @@
         <table>sys_user_role</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=9a65b57f1b15e1105b76777d8b4bcbcd"/>
 </record_update>

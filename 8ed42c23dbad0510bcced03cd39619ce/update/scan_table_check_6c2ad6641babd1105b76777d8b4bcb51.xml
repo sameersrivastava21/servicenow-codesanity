@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>Each UI Script must have a description in the description field. The description should describe what the function or class does.&#13;
@@ -30,11 +31,13 @@ In case of a single function it should describe the input parameters and output 
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-30 16:04:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6c2ad6641babd1105b76777d8b4bcb51</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>CodeSanity - UI Script description</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_6c2ad6641babd1105b76777d8b4bcb51</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -42,5 +45,4 @@ In case of a single function it should describe the input parameters and output 
         <table>sys_ui_script</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=6c2ad6641babd1105b76777d8b4bcb51"/>
 </record_update>

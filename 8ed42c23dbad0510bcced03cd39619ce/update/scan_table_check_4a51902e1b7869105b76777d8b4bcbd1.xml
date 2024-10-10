@@ -2,6 +2,7 @@
     <scan_table_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>true</advanced>
+        <attributes/>
         <category>code_sanity</category>
         <conditions/>
         <description>A UI action usually exposes functionality to users. Even if a functionality should be exposed to all users at the time the UI Action was introduced, this may not be true in the future. Hence even for UI Actions that should be available to many or even all users, a role should be required to access the UI Action.&#13;
@@ -34,11 +35,13 @@ Hence all UI Actions should at least require one role to access the UI Action.</
         <sys_class_name>scan_table_check</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-06 14:38:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4a51902e1b7869105b76777d8b4bcbd1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CodeSanity - UI Action requires a role</sys_name>
         <sys_package display_value="CodeSanity" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CodeSanity">8ed42c23dbad0510bcced03cd39619ce</sys_scope>
         <sys_update_name>scan_table_check_4a51902e1b7869105b76777d8b4bcbd1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -46,5 +49,4 @@ Hence all UI Actions should at least require one role to access the UI Action.</
         <table>sys_ui_action</table>
         <use_manifest>false</use_manifest>
     </scan_table_check>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a51902e1b7869105b76777d8b4bcbd1"/>
 </record_update>
